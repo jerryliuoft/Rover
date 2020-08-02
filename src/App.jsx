@@ -123,7 +123,7 @@ export const fileParser = (file) => {
 /**
  * Helper function to run all the commands
  *
- * Return: [Rover location1, Rover location 2]
+ * Return: [[position, command, Rover location]]
  */
 export const runCommands = (commands, rover) => {
   if (!rover) {
